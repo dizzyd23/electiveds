@@ -1,4 +1,4 @@
-package za.ac.cput.mansnothott;
+package Rowan;
 
 /**
  * Hello world!
