@@ -1,0 +1,40 @@
+package Craig;
+
+
+
+public class StudentList {
+
+    private String name;
+    private int studentNumber;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getStudentNumber() {
+        return studentNumber;
+    }
+
+    public void setStudentNumber(int studentNumber) {
+        this.studentNumber = studentNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        StudentList Studentlist = (StudentList) o;
+
+        return studentNumber == carlist.studentNumber;
+    }
+
+    @Override
+    public int hashCode() {
+        return studentNumber;
+    }
+}
